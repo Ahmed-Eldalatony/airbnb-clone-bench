@@ -1,5 +1,5 @@
 {
-  "name": "@airbnb-minimax25/api",
+  "name": "@airbnb-clone/api",
   "type": "module",
   "exports": {
     ".": {
@@ -11,9 +11,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "@airbnb-minimax25/auth": "workspace:*",
-    "@airbnb-minimax25/db": "workspace:*",
-    "@airbnb-minimax25/env": "workspace:*",
+    "@airbnb-clone/auth": "workspace:*",
+    "@airbnb-clone/db": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
     "@orpc/client": "catalog:",
     "@orpc/openapi": "catalog:",
     "@orpc/server": "catalog:",
@@ -23,7 +23,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "hono": "catalog:",
     "typescript": "^5"
   }

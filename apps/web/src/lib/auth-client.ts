@@ -1,4 +1,4 @@
-import { env } from "@airbnb-minimax25/env/web";
+import { env } from "@airbnb-clone/env/web";
 import { createAuthClient } from "better-auth/react";
 
 export const authClient = createAuthClient({

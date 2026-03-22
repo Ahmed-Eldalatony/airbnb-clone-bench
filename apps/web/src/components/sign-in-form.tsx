@@ -1,6 +1,6 @@
-import { Button } from "@airbnb-minimax25/ui/components/button";
-import { Input } from "@airbnb-minimax25/ui/components/input";
-import { Label } from "@airbnb-minimax25/ui/components/label";
+import { Button } from "@airbnb-clone/ui/components/button";
+import { Input } from "@airbnb-clone/ui/components/input";
+import { Label } from "@airbnb-clone/ui/components/label";
 import { useForm } from "@tanstack/react-form";
 import { useNavigate } from "@tanstack/react-router";
 import { toast } from "sonner";

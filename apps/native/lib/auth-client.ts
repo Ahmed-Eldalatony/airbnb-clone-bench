@@ -1,4 +1,4 @@
-import { env } from "@airbnb-minimax25/env/native";
+import { env } from "@airbnb-clone/env/native";
 import { expoClient } from "@better-auth/expo/client";
 import { createAuthClient } from "better-auth/react";
 import Constants from "expo-constants";

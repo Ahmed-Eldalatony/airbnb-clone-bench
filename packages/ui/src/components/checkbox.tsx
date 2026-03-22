@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@airbnb-minimax25/ui/lib/utils";
+import { cn } from "@airbnb-clone/ui/lib/utils";
 import { Checkbox as CheckboxPrimitive } from "@base-ui/react/checkbox";
 import { CheckIcon } from "lucide-react";
 

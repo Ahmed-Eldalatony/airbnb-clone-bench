@@ -1,5 +1,5 @@
-import { db } from "@airbnb-minimax25/db";
-import { todo } from "@airbnb-minimax25/db/schema/todo";
+import { db } from "@airbnb-clone/db";
+import { todo } from "@airbnb-clone/db/schema/todo";
 import { eq } from "drizzle-orm";
 import z from "zod";
 

@@ -1,4 +1,4 @@
-import { cn } from "@airbnb-minimax25/ui/lib/utils";
+import { cn } from "@airbnb-clone/ui/lib/utils";
 import * as React from "react";
 
 function Card({

@@ -1,5 +1,5 @@
 {
-  "name": "@airbnb-minimax25/db",
+  "name": "@airbnb-clone/db",
   "type": "module",
   "exports": {
     ".": {
@@ -17,7 +17,7 @@
     "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
-    "@airbnb-minimax25/env": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
     "@libsql/client": "catalog:",
     "dotenv": "catalog:",
     "drizzle-orm": "catalog:",
@@ -25,7 +25,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "drizzle-kit": "^0.31.8",
     "typescript": "^5"
   }

@@ -8,10 +8,10 @@
     "dev:bare": "vite dev"
   },
   "dependencies": {
-    "@airbnb-minimax25/api": "workspace:*",
-    "@airbnb-minimax25/auth": "workspace:*",
-    "@airbnb-minimax25/env": "workspace:*",
-    "@airbnb-minimax25/ui": "workspace:*",
+    "@airbnb-clone/api": "workspace:*",
+    "@airbnb-clone/auth": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
+    "@airbnb-clone/ui": "workspace:*",
     "@libsql/client": "catalog:",
     "@orpc/client": "catalog:",
     "@orpc/server": "catalog:",
@@ -36,7 +36,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "@cloudflare/vite-plugin": "^1.17.1",
     "@tanstack/react-query-devtools": "^5.91.1",
     "@tanstack/react-router-devtools": "^1.141.1",

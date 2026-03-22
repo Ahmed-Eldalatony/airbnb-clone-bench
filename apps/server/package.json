@@ -8,10 +8,10 @@
     "compile": "bun build --compile --minify --sourcemap --bytecode ./src/index.ts --outfile server"
   },
   "dependencies": {
-    "@airbnb-minimax25/api": "workspace:*",
-    "@airbnb-minimax25/auth": "workspace:*",
-    "@airbnb-minimax25/db": "workspace:*",
-    "@airbnb-minimax25/env": "workspace:*",
+    "@airbnb-clone/api": "workspace:*",
+    "@airbnb-clone/auth": "workspace:*",
+    "@airbnb-clone/db": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
     "@orpc/openapi": "catalog:",
     "@orpc/server": "catalog:",
     "@orpc/zod": "catalog:",
@@ -21,7 +21,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "@cloudflare/workers-types": "catalog:",
     "@types/node": "catalog:",
     "alchemy": "catalog:",

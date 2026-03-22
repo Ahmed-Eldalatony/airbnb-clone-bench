@@ -1,5 +1,5 @@
-import type { AppRouter } from "@airbnb-minimax25/api/routers/index";
-import { env } from "@airbnb-minimax25/env/web";
+import type { AppRouter } from "@airbnb-clone/api/routers/index";
+import { env } from "@airbnb-clone/env/web";
 import { createORPCClient } from "@orpc/client";
 import { RPCLink } from "@orpc/client/fetch";
 import type { RouterClient } from "@orpc/server";

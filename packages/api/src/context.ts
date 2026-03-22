@@ -1,4 +1,4 @@
-import { auth } from "@airbnb-minimax25/auth";
+import { auth } from "@airbnb-clone/auth";
 import type { Context as HonoContext } from "hono";
 
 export type CreateContextOptions = {

@@ -10,8 +10,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@airbnb-minimax25/api": "workspace:*",
-    "@airbnb-minimax25/env": "workspace:*",
+    "@airbnb-clone/api": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
     "@better-auth/expo": "catalog:",
     "@expo/vector-icons": "^15.0.3",
     "@orpc/client": "catalog:",
@@ -52,7 +52,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "@babel/core": "^7.28.0",
     "@types/react": "~19.2.10",
     "ajv": "^8.17.1",

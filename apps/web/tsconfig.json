@@ -23,7 +23,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@airbnb-minimax25/ui/*": ["../../packages/ui/src/*"]
+      "@airbnb-clone/ui/*": ["../../packages/ui/src/*"]
     }
   }
 }

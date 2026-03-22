@@ -1,4 +1,4 @@
-# airbnb-minimax25
+# airbnb-clone
 
 This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines React, TanStack Start, Hono, ORPC, and more.
 
@@ -73,7 +73,7 @@ npx shadcn@latest add accordion dialog popover sheet table -c packages/ui
 Import shared components like this:
 
 ```tsx
-import { Button } from "@airbnb-minimax25/ui/components/button";
+import { Button } from "@airbnb-clone/ui/components/button";
 ```
 
 ### Add app-specific blocks
@@ -91,7 +91,7 @@ For more details, see the guide on [Deploying to Cloudflare with Alchemy](https:
 ## Project Structure
 
 ```
-airbnb-minimax25/
+airbnb-clone/
 ├── apps/
 │   ├── web/         # Frontend application (React + TanStack Start)
 │   ├── native/      # Mobile application (React Native, Expo)

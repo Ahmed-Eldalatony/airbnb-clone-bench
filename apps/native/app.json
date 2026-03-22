@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "airbnb-minimax25",
-    "slug": "airbnb-minimax25",
+    "name": "airbnb-clone",
+    "slug": "airbnb-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "airbnb-minimax25",
+    "scheme": "airbnb-clone",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true

@@ -1,6 +1,6 @@
-import { db } from "@airbnb-minimax25/db";
-import * as schema from "@airbnb-minimax25/db/schema/auth";
-import { env } from "@airbnb-minimax25/env/server";
+import { db } from "@airbnb-clone/db";
+import * as schema from "@airbnb-clone/db/schema/auth";
+import { env } from "@airbnb-clone/env/server";
 import { expo } from "@better-auth/expo";
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
@@ -13,7 +13,7 @@ export const auth = betterAuth({
   }),
   trustedOrigins: [
     env.CORS_ORIGIN,
-    "airbnb-minimax25://",
+    "airbnb-clone://",
     ...(env.NODE_ENV === "development"
       ? ["exp://", "exp://**", "exp://192.168.*.*:*/**", "http://localhost:8081"]
       : []),

@@ -1,13 +1,13 @@
-import { Button } from "@airbnb-minimax25/ui/components/button";
+import { Button } from "@airbnb-clone/ui/components/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@airbnb-minimax25/ui/components/card";
-import { Checkbox } from "@airbnb-minimax25/ui/components/checkbox";
-import { Input } from "@airbnb-minimax25/ui/components/input";
+} from "@airbnb-clone/ui/components/card";
+import { Checkbox } from "@airbnb-clone/ui/components/checkbox";
+import { Input } from "@airbnb-clone/ui/components/input";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
 import { Loader2, Trash2 } from "lucide-react";

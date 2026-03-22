@@ -13,8 +13,8 @@
   "iconLibrary": "lucide",
   "aliases": {
     "components": "@/components",
-    "utils": "@airbnb-minimax25/ui/lib/utils",
-    "ui": "@airbnb-minimax25/ui/components",
+    "utils": "@airbnb-clone/ui/lib/utils",
+    "ui": "@airbnb-clone/ui/components",
     "lib": "@/lib",
     "hooks": "@/hooks"
   },

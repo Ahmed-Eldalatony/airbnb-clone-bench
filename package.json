@@ -1,5 +1,5 @@
 {
-  "name": "airbnb-minimax25",
+  "name": "airbnb-clone",
   "private": true,
   "workspaces": {
     "packages": [
@@ -40,21 +40,21 @@
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
-    "db:push": "turbo -F @airbnb-minimax25/db db:push",
-    "db:studio": "turbo -F @airbnb-minimax25/db db:studio",
-    "db:generate": "turbo -F @airbnb-minimax25/db db:generate",
-    "db:migrate": "turbo -F @airbnb-minimax25/db db:migrate",
-    "db:local": "turbo -F @airbnb-minimax25/db db:local",
-    "deploy": "turbo -F @airbnb-minimax25/infra deploy",
-    "destroy": "turbo -F @airbnb-minimax25/infra destroy"
+    "db:push": "turbo -F @airbnb-clone/db db:push",
+    "db:studio": "turbo -F @airbnb-clone/db db:studio",
+    "db:generate": "turbo -F @airbnb-clone/db db:generate",
+    "db:migrate": "turbo -F @airbnb-clone/db db:migrate",
+    "db:local": "turbo -F @airbnb-clone/db db:local",
+    "deploy": "turbo -F @airbnb-clone/infra deploy",
+    "destroy": "turbo -F @airbnb-clone/infra destroy"
   },
   "dependencies": {
-    "@airbnb-minimax25/env": "workspace:*",
+    "@airbnb-clone/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@airbnb-minimax25/config": "workspace:*",
+    "@airbnb-clone/config": "workspace:*",
     "@cloudflare/workers-types": "catalog:",
     "@types/node": "catalog:",
     "turbo": "^2.8.12",

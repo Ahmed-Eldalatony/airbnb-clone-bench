@@ -1,5 +1,5 @@
 {
-  "extends": "@airbnb-minimax25/config/tsconfig.base.json",
+  "extends": "@airbnb-clone/config/tsconfig.base.json",
   "compilerOptions": {
     "composite": true,
     "outDir": "dist",

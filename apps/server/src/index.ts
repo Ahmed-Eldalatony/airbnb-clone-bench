@@ -1,7 +1,7 @@
-import { createContext } from "@airbnb-minimax25/api/context";
-import { appRouter } from "@airbnb-minimax25/api/routers/index";
-import { auth } from "@airbnb-minimax25/auth";
-import { env } from "@airbnb-minimax25/env/server";
+import { createContext } from "@airbnb-clone/api/context";
+import { appRouter } from "@airbnb-clone/api/routers/index";
+import { auth } from "@airbnb-clone/auth";
+import { env } from "@airbnb-clone/env/server";
 import { OpenAPIHandler } from "@orpc/openapi/fetch";
 import { OpenAPIReferencePlugin } from "@orpc/openapi/plugins";
 import { onError } from "@orpc/server";

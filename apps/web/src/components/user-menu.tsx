@@ -1,4 +1,4 @@
-import { Button } from "@airbnb-minimax25/ui/components/button";
+import { Button } from "@airbnb-clone/ui/components/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,8 +7,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@airbnb-minimax25/ui/components/dropdown-menu";
-import { Skeleton } from "@airbnb-minimax25/ui/components/skeleton";
+} from "@airbnb-clone/ui/components/dropdown-menu";
+import { Skeleton } from "@airbnb-clone/ui/components/skeleton";
 import { Link, useNavigate } from "@tanstack/react-router";
 
 import { authClient } from "@/lib/auth-client";

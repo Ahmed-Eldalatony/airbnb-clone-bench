@@ -7,7 +7,7 @@ config({ path: "./.env" });
 config({ path: "../../apps/web/.env" });
 config({ path: "../../apps/server/.env" });
 
-const app = await alchemy("airbnb-minimax25");
+const app = await alchemy("airbnb-clone");
 
 export const web = await TanStackStart("web", {
   cwd: "../../apps/web",

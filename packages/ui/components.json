@@ -12,11 +12,11 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@airbnb-minimax25/ui/components",
-    "utils": "@airbnb-minimax25/ui/lib/utils",
-    "hooks": "@airbnb-minimax25/ui/hooks",
-    "lib": "@airbnb-minimax25/ui/lib",
-    "ui": "@airbnb-minimax25/ui/components"
+    "components": "@airbnb-clone/ui/components",
+    "utils": "@airbnb-clone/ui/lib/utils",
+    "hooks": "@airbnb-clone/ui/hooks",
+    "lib": "@airbnb-clone/ui/lib",
+    "ui": "@airbnb-clone/ui/components"
   },
   "menuColor": "default",
   "menuAccent": "subtle",

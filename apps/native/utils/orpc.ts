@@ -1,5 +1,5 @@
-import type { AppRouterClient } from "@airbnb-minimax25/api/routers/index";
-import { env } from "@airbnb-minimax25/env/native";
+import type { AppRouterClient } from "@airbnb-clone/api/routers/index";
+import { env } from "@airbnb-clone/env/native";
 import { createORPCClient } from "@orpc/client";
 import { RPCLink } from "@orpc/client/fetch";
 import { createTanstackQueryUtils } from "@orpc/tanstack-query";
