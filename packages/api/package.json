@@ -1,0 +1,30 @@
+{
+  "name": "@airbnb-minimax25/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@airbnb-minimax25/auth": "workspace:*",
+    "@airbnb-minimax25/db": "workspace:*",
+    "@airbnb-minimax25/env": "workspace:*",
+    "@orpc/client": "catalog:",
+    "@orpc/openapi": "catalog:",
+    "@orpc/server": "catalog:",
+    "@orpc/zod": "catalog:",
+    "dotenv": "catalog:",
+    "drizzle-orm": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@airbnb-minimax25/config": "workspace:*",
+    "hono": "catalog:",
+    "typescript": "^5"
+  }
+}

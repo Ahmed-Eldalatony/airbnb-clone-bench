@@ -1,0 +1,64 @@
+{
+  "name": "airbnb-minimax25",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "dotenv": "^17.2.2",
+      "zod": "^4.1.13",
+      "@types/node": "^22.13.14",
+      "@cloudflare/workers-types": "^4.20251213.0",
+      "hono": "^4.8.2",
+      "@orpc/server": "^1.12.2",
+      "@orpc/openapi": "^1.12.2",
+      "@orpc/zod": "^1.12.2",
+      "better-auth": "1.5.2",
+      "alchemy": "^0.87.0",
+      "wrangler": "^4.54.0",
+      "lucide-react": "^0.546.0",
+      "next-themes": "^0.4.6",
+      "sonner": "^2.0.5",
+      "tailwindcss": "^4.1.18",
+      "@libsql/client": "0.15.15",
+      "libsql": "0.5.22",
+      "@orpc/tanstack-query": "^1.13.6",
+      "@orpc/client": "^1.12.2",
+      "@tanstack/react-form": "^1.28.0",
+      "@types/react-dom": "^19.2.3",
+      "@better-auth/expo": "1.5.2",
+      "drizzle-orm": "^0.45.1"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:native": "turbo -F native dev",
+    "dev:web": "turbo -F web dev",
+    "dev:server": "turbo -F server dev",
+    "db:push": "turbo -F @airbnb-minimax25/db db:push",
+    "db:studio": "turbo -F @airbnb-minimax25/db db:studio",
+    "db:generate": "turbo -F @airbnb-minimax25/db db:generate",
+    "db:migrate": "turbo -F @airbnb-minimax25/db db:migrate",
+    "db:local": "turbo -F @airbnb-minimax25/db db:local",
+    "deploy": "turbo -F @airbnb-minimax25/infra deploy",
+    "destroy": "turbo -F @airbnb-minimax25/infra destroy"
+  },
+  "dependencies": {
+    "@airbnb-minimax25/env": "workspace:*",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@airbnb-minimax25/config": "workspace:*",
+    "@cloudflare/workers-types": "catalog:",
+    "@types/node": "catalog:",
+    "turbo": "^2.8.12",
+    "typescript": "^5"
+  },
+  "packageManager": "bun@1.3.4"
+}
