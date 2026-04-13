@@ -11,7 +11,9 @@ export const todoRouter = {
   }),
 
   create: publicProcedure
-    .input(z.object({ text: z.string().min(1) }))
+    .input(z.object({ text: z.string().refine((val) => val.trim().length > 0, {
+      message: "Text cannot be empty or whitespace only",
+    }) }))
     .handler(async ({ input }) => {
       return await db.insert(todo).values({
         text: input.text,
