@@ -8,7 +8,8 @@
     "scheme": "airbnb-clone",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.mybettertapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -35,6 +36,20 @@
           "backgroundColor": "#ffffff",
           "dark": {
             "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "hermesV1Enabled": true
+          },
+          "ios": {
+            "hermesV1Enabled": true
           }
         }
       ]
