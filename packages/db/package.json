@@ -14,7 +14,9 @@
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "@airbnb-clone/env": "workspace:*",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@airbnb-clone/config": "workspace:*",
     "drizzle-kit": "^0.31.8",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.0.0"
   }
 }

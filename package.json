@@ -37,6 +37,8 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "check-types": "turbo check-types",
+    "test": "turbo test",
+    "test:run": "turbo test:run",
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
@@ -51,11 +53,13 @@
   "dependencies": {
     "@airbnb-clone/env": "workspace:*",
     "dotenv": "catalog:",
+    "react-native-nitro-modules": "^0.35.2",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@airbnb-clone/config": "workspace:*",
     "@cloudflare/workers-types": "catalog:",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "catalog:",
     "turbo": "^2.8.12",
     "typescript": "^5"
