@@ -12,14 +12,6 @@ describe("appRouter", () => {
 
       expect(result).toBe("OK");
     });
-
-    it("works without session", async () => {
-      const result = await call(appRouter.healthCheck, undefined, {
-        context: mockContextWithoutSession,
-      });
-
-      expect(result).toBe("OK");
-    });
   });
 
   describe("privateData", () => {

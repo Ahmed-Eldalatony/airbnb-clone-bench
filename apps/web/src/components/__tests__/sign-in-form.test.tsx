@@ -35,7 +35,7 @@ describe("SignInForm", () => {
     expect(onSwitchToSignUp).toHaveBeenCalled();
   });
 
-  it("validates email is required", async () => {
+  it("does not show validation error on blur without input", async () => {
     const user = userEvent.setup();
 
     render(<SignInForm onSwitchToSignUp={vi.fn()} />);

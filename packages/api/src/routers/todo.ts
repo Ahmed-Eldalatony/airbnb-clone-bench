@@ -16,7 +16,7 @@ export const todoRouter = {
     }) }))
     .handler(async ({ input }) => {
       return await db.insert(todo).values({
-        text: input.text,
+        text: input.text.trim(),
       });
     }),
 
